@@ -78,7 +78,7 @@ A full-featured Task Management Web Application that allows users to collaborate
 ## 🛠️ Workspace Detail Page (Edit/Delete)
 ![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
 
-## 
+## 🛠️Edit Task Page
 ![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
 
 ---
