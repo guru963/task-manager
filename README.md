@@ -1,2 +1,2 @@
-# task-manager
-A well defined task manager with all necessary functionalities
+# Task-Manager
+A well defined task manager with all necesaary functionalities where you can create a workspace ,update and delete the workspace and through the join link you can add other members to the workspace and in each workspace you can create projects and create tasks where you can edit the tasks and has all functionlities where you can assign members to each tasks and create a deadline and priority for each tasks and it also provides a table and kanban view for visualising the task and it is has Mongodb database with authentiaction and cookies for verifing JWT Token 
