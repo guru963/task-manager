@@ -1,44 +1,124 @@
-# Task-Manager
-A well defined task manager with all necesaary functionalities where you can create a workspace ,update and delete the workspace and through the join link you can add other members to the workspace and in each workspace you can create projects and create tasks where you can edit the tasks and has all functionlities where you can assign members to each tasks and create a deadline and priority for each tasks and it also provides a table and kanban view for visualising the task and it is has Mongodb database with authentiaction and cookies for verifing JWT Token 
+# 🚀 Task-Manager
 
+A full-featured Task Management Web Application that allows users to collaborate efficiently on projects within shared workspaces. Built with a powerful tech stack and designed for productivity, this platform includes user authentication, role-based task assignment, deadlines, priority levels, and intuitive visualization with both **table and Kanban views**.
 
-# ScreenShots of the Project
+---
 
-## 📝 Register Page with Name, Email, and Password
+## 🧩 Key Features
+
+### 🔐 Authentication & Authorization
+- User registration and login
+- JWT-based authentication with cookie storage
+- Secure access to protected routes
+
+### 🏗️ Workspace Management
+- Create, update, and delete workspaces
+- Invite members to a workspace via a join link
+- Collaborate with multiple users in real-time
+
+### 📁 Project & Task Handling
+- Create multiple projects within each workspace
+- Add, edit, and delete tasks for each project
+- Assign tasks to specific members
+- Set deadlines and priority levels for tasks
+
+### 📊 Task Visualization
+- View tasks in **Table View** with filtering and pagination
+- View tasks in **Kanban Board** layout by status (e.g., Todo, In Progress, Done)
+
+### 🔎 Filtering & Sorting
+- Filter tasks by status, priority, or assignee
+- Paginate long task lists for better performance and UX
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT, Cookies
+- **Deployment**: (Assume platforms like Vercel/Render/MongoDB Atlas)
+
+---
+
+## 📸 ScreenShots of the Project
+
+### 📝 Register Page with Name, Email, and Password
 ![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
 
-## 🔐 Login Page
+### 🔐 Login Page
 ![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
 
-## 🏠 Home Page with All Widgets
+### 🏠 Home Page with All Widgets
 ![Home Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123035.png?raw=true)
 
-## 📊 Table View for Seeing Tasks
+### 📊 Table View for Seeing Tasks
 ![Table View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123023.png?raw=true)
 
-## 📄 Pagination of the Tasks in the Table
+### 📄 Pagination of the Tasks in the Table
 ![Pagination](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123013.png?raw=true)
 
-## 🔎 Filtering Available
+### 🔎 Filtering Available
 ![Filtering](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122957.png?raw=true)
 
-## 🧱 Kanban Board View
+### 🧱 Kanban Board View
 ![Kanban Board](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122939.png?raw=true)
 
-## 📌 Task View for Each Project
+### 📌 Task View for Each Project 
 ![Task View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122911.png?raw=true)
 
-## ➕ Create Task Page
+### ➕ Create Task Page
 ![Create Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122843.png?raw=true)
 
-## 🧩 Create Project Page
+### 🧩 Create Project Page
 ![Create Project](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122830.png?raw=true)
 
-## 🏗️ Create Workspace Page
+### 🏗️ Create Workspace Page 
 ![Create Workspace](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122805.png?raw=true)
 
-## 🛠️ Workspace Detail Page (Edit/Delete)
+### 🛠️ Workspace Detail Page (Edit/Delete)
 ![Workspace Detail](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122746.png?raw=true)
 
-## ✏️ Edit Task Page
+### ✏️ Edit Task Page
 ![Edit Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122727.png?raw=true)
+
+---
+
+## 🛠️ Getting Started
+
+### 1️) Clone the Repository
+
+```bash
+git clone https://github.com/guru963/task-manager.git
+cd task-manager
+```
+### 2)Install the dependencies for Frontend
+
+```bash
+cd task
+npm install
+npm run dev
+```
+### 3)Install the dependencies for Backend
+
+```bash
+cd backend
+npx nodemon
+```
+
+---
+### Future Improvements
+-Notifications and activity logs
+-Task dependencies and subtasks
+-Mobile responsiveness
+
+---
+### 🙌 Contributing
+Contributions are welcome! Feel free to fork the repo and submit a PR.
+
+---
+### 📄 License
+This project is licensed under the MIT License.
+
+
