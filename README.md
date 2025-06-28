@@ -5,7 +5,7 @@ A well defined task manager with all necesaary functionalities where you can cre
 # ScreenShots of the Project
 
 ## 📝 Register Page with Name, Email, and Password
-![Register Page](./img/Screenshot%202025-06-28%20123104.png)
+![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
 
 ## 🔐 Login Page
 ![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
