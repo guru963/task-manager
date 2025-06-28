@@ -42,49 +42,46 @@ A full-featured Task Management Web Application that allows users to collaborate
 
 ---
 
-## 📸 ScreenShots of the Project
-
-### 📝 Register Page with Name, Email, and Password
-![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
-
-### 🔐 Login Page
-![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
-
-### 🏠 Home Page with All Widgets
-![Home Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123035.png?raw=true)
-
-### 📊 Table View for Seeing Tasks
-![Table View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123023.png?raw=true)
-
-### 📄 Pagination of the Tasks in the Table
-![Pagination](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123013.png?raw=true)
-
-### 🔎 Filtering Available
-![Filtering](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122957.png?raw=true)
-
-### 🧱 Kanban Board View
-![Kanban Board](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122939.png?raw=true)
-
-### 📌 Task View for Each Project 
-![Task View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122911.png?raw=true)
-
-### ➕ Create Task Page
-![Create Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122843.png?raw=true)
-
-### 🧩 Create Project Page
-![Create Project](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122830.png?raw=true)
-
-### 🏗️ Create Workspace Page 
-![Create Workspace](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122805.png?raw=true)
-
-### 🛠️ Workspace Detail Page (Edit/Delete)
-![Workspace Detail](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122746.png?raw=true)
-
-### ✏️ Edit Task Page
+##  📝 Register Page with Name, Email, and Password
 ![Edit Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122727.png?raw=true)
 
----
+##  🔐 Login Page
+![Workspace Detail](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122746.png?raw=true)
 
+## 🏠 Home Page with All Widgets
+![Create Workspace](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122805.png?raw=true)
+
+##  📊 Table View for Seeing Tasks
+![Create Project](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122830.png?raw=true)
+
+##  📄 Pagination of the Tasks in the Table
+![Create Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122843.png?raw=true)
+
+## 🔎 Filtering Available
+![Task View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122911.png?raw=true)
+
+## 🧱 Kanban Board View
+![Kanban Board](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122939.png?raw=true)
+
+## 📌 Task View for Each Project 
+![Filtering](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122957.png?raw=true)
+
+## ➕ Create Task Page
+![Pagination](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123013.png?raw=true)
+
+## 🧩 Create Project Page
+![Table View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123023.png?raw=true)
+
+## 🏗️ Create Workspace Page 
+![Home Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123035.png?raw=true)
+
+## 🛠️ Workspace Detail Page (Edit/Delete)
+![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
+
+## 
+![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
+
+---
 ## 🛠️ Getting Started
 
 ### 1️) Clone the Repository
