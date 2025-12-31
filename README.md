@@ -55,6 +55,9 @@ It is designed with scalability, productivity, and clean user experience in mind
 
 ## User Interface Preview
 
+## Demo Video
+https://drive.google.com/file/d/1qaDR-ATMvSiCOA5IoSYKTgQWrIazBYZQ/view?usp=sharing
+
 ### Authentication Pages
 
 <p align="center">
