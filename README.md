@@ -1,121 +1,172 @@
-# 🚀 Task-Manager
+# Task Manager – Collaborative Project Management Platform
 
-A full-featured Task Management Web Application that allows users to collaborate efficiently on projects within shared workspaces. Built with a powerful tech stack and designed for productivity, this platform includes user authentication, role-based task assignment, deadlines, priority levels, and intuitive visualization with both **table and Kanban views**.
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+## Overview
+
+Task Manager is a full-featured **collaborative task management web application** that enables teams to efficiently manage projects within shared workspaces.  
+The platform supports **user authentication**, **role-based task assignment**, **deadlines**, **priority management**, and **multiple task visualization modes** including Table and Kanban views.
+
+It is designed with scalability, productivity, and clean user experience in mind.
 
 ---
 
-## 🧩 Key Features
+## Key Features
 
-### 🔐 Authentication & Authorization
+### Authentication & Authorization
 - User registration and login
-- JWT-based authentication with cookie storage
-- Secure access to protected routes
+- JWT-based authentication with secure cookie storage
+- Protected routes and role-based access control
 
-### 🏗️ Workspace Management
+### Workspace Management
 - Create, update, and delete workspaces
-- Invite members to a workspace via a join link
-- Collaborate with multiple users in real-time
+- Invite members via shareable join links
+- Collaborate with multiple users inside a workspace
 
-### 📁 Project & Task Handling
-- Create multiple projects within each workspace
-- Add, edit, and delete tasks for each project
-- Assign tasks to specific members
-- Set deadlines and priority levels for tasks
+### Project & Task Management
+- Create multiple projects per workspace
+- Add, edit, and delete tasks
+- Assign tasks to specific users
+- Set task deadlines and priority levels
 
-### 📊 Task Visualization
-- View tasks in **Table View** with filtering and pagination
-- View tasks in **Kanban Board** layout by status (e.g., Todo, In Progress, Done)
+### Task Visualization
+- Table view with pagination and filtering
+- Kanban board view categorized by task status (Todo, In Progress, Done)
 
-### 🔎 Filtering & Sorting
+### Filtering & Sorting
 - Filter tasks by status, priority, or assignee
-- Paginate long task lists for better performance and UX
+- Paginated task lists for improved performance and usability
 
 ---
 
-## ⚙️ Tech Stack
+## Technology Stack
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JWT, Cookies
-- **Deployment**: (Assume platforms like Vercel/Render/MongoDB Atlas)
+| Layer        | Technology                  |
+|--------------|-----------------------------|
+| Frontend     | React.js, Tailwind CSS      |
+| Backend      | Node.js, Express.js         |
+| Database     | MongoDB                     |
+| Authentication | JWT, Cookies              |
+| Deployment   | Vercel / Render / MongoDB Atlas |
+
+---
+
+## User Interface Preview
+
+### Authentication Pages
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122727.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122746.png?raw=true" width="45%" />
+</p>
 
 ---
 
-##  📝 Register Page with Name, Email, and Password
-![Edit Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122727.png?raw=true)
+### Dashboard & Workspace Views
 
-##  🔐 Login Page
-![Workspace Detail](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122746.png?raw=true)
-
-## 🏠 Home Page with All Widgets
-![Create Workspace](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122805.png?raw=true)
-
-##  📊 Table View for Seeing Tasks
-![Create Project](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122830.png?raw=true)
-
-##  📄 Pagination of the Tasks in the Table
-![Create Task](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122843.png?raw=true)
-
-## 🔎 Filtering Available
-![Task View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122911.png?raw=true)
-
-## 🧱 Kanban Board View
-![Kanban Board](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122939.png?raw=true)
-
-## 📌 Task View for Each Project 
-![Filtering](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122957.png?raw=true)
-
-## ➕ Create Task Page
-![Pagination](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123013.png?raw=true)
-
-## 🧩 Create Project Page
-![Table View](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123023.png?raw=true)
-
-## 🏗️ Create Workspace Page 
-![Home Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123035.png?raw=true)
-
-## 🛠️ Workspace Detail Page (Edit/Delete)
-![Login Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true)
-
-## 🛠️Edit Task Page
-![Register Page](https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true)
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122805.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123035.png?raw=true" width="45%" />
+</p>
 
 ---
-## 🛠️ Getting Started
 
-### 1️) Clone the Repository
+### Task Management – Table View
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122830.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122843.png?raw=true" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122911.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122957.png?raw=true" width="45%" />
+</p>
+
+---
+
+### Kanban Board View
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20122939.png?raw=true" width="70%" />
+</p>
+
+---
+
+### Project & Task Creation
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123013.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123023.png?raw=true" width="45%" />
+</p>
+
+---
+
+### Workspace & Task Editing
+
+<p align="center">
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123047.png?raw=true" width="45%" />
+  <img src="https://github.com/guru963/task-manager/blob/main/img/Screenshot%202025-06-28%20123104.png?raw=true" width="45%" />
+</p>
+
+---
+
+## Getting Started
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/guru963/task-manager.git
 cd task-manager
 ```
-### 2)Install the dependencies for Frontend
 
+### Frontend Setup
 ```bash
 cd task
 npm install
 npm run dev
 ```
-### 3)Install the dependencies for Backend
 
+### Backend Setup
 ```bash
 cd backend
+npm install
 npx nodemon
 ```
 
----
-### Future Improvements
--Notifications and activity logs
--Task dependencies and subtasks
--Mobile responsiveness
+## Environment Variables
+
+The backend requires the following environment variables.
+Create a `.env` file in the backend directory using the template below:
+
+```bash
+MONGODB_URL=your_mongodb_connection_string
+GOOGLE_CLIENT_ID=your_google_oauth_client_id
+JWT_SECRET=your_jwt_secret
+NODE_ENV=development
+```
 
 ---
-### 🙌 Contributing
-Contributions are welcome! Feel free to fork the repo and submit a PR.
+## Future Improvements
+
+- Notifications and activity logs  
+- Task dependencies and subtasks  
+- Improved mobile responsiveness  
+- Real-time collaboration features  
 
 ---
-### 📄 License
+
+## License
+
 This project is licensed under the MIT License.
 
+---
+
+## Author
+
+**Guru Divya Darshini U**  
+Full Stack Web Developer  
+React | Node.js | MongoDB | System Design
 
